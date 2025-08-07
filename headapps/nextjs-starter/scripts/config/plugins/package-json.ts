@@ -1,6 +1,7 @@
 import { JssConfig } from 'lib/config';
-import { ConfigPlugin } from '..';
 import packageConfig from 'package.json';
+
+import { ConfigPlugin } from '..';
 
 /**
  * This plugin will set config props based on package.json.

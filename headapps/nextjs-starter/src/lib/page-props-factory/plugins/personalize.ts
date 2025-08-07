@@ -1,7 +1,8 @@
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
-import { Plugin } from '..';
 import { getPersonalizedRewriteData, personalizeLayout } from '@sitecore-jss/sitecore-jss-nextjs';
 import { SitecorePageProps } from 'lib/page-props';
+
+import { Plugin } from '..';
 
 class PersonalizePlugin implements Plugin {
   order = 3;

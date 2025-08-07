@@ -1,4 +1,5 @@
 import { generateComponentBuilder } from '@sitecore-jss/sitecore-jss-dev-tools/nextjs';
+
 import {
   ComponentBuilderPluginConfig,
   ComponentBuilderPlugin as ComponentBuilderPluginType,

@@ -3,6 +3,7 @@ import {
   SiteInfo,
   personalizeLayout,
   getGroomedVariantIds,
+  RestComponentLayoutService,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import {
   editingDataService,
@@ -11,9 +12,9 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs/editing';
 import { SitecorePageProps } from 'lib/page-props';
 import { graphQLEditingService } from 'lib/graphql-editing-service';
-import { Plugin } from '..';
-import { RestComponentLayoutService } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
+
+import { Plugin } from '..';
 
 class PreviewModePlugin implements Plugin {
   order = 1;

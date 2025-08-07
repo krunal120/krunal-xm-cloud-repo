@@ -1,5 +1,7 @@
+/* eslint-disable import/order */
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { NativeDataFetcher, GraphQLSitemapXmlService } from '@sitecore-jss/sitecore-jss-nextjs';
+
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 
@@ -38,6 +40,7 @@ const sitemapApi = async (
       res.setHeader('Content-Type', 'text/xml;charset=utf-8');
 
       return res.send(xmlResponse.data);
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       return res.redirect('/404');
     }

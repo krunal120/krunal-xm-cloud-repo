@@ -1,5 +1,7 @@
+/* eslint-disable import/order */
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { GraphQLRobotsService } from '@sitecore-jss/sitecore-jss-nextjs';
+
 import { siteResolver } from 'lib/site-resolver';
 import clientFactory from 'lib/graphql-client-factory';
 

@@ -1,4 +1,5 @@
 import { JssConfig } from 'lib/config';
+
 import { ConfigPlugin } from '..';
 
 /**
