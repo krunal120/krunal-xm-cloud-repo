@@ -1,10 +1,10 @@
-"use client";
+'use client';
 /**
  * Required boilerplate for BYOC clientside bundle.
  *
  * DO NOT REMOVE
  */
-import * as FEAAS from "@sitecore-feaas/clientside/react";
+import * as FEAAS from '@sitecore-feaas/clientside/react';
 export default (props: any) => {
   debugger;
   return FEAAS.ExternalComponent(props);
@@ -16,13 +16,13 @@ export default (props: any) => {
  */
 
 // Clientside-only component
-import "./ExampleClientsideComponent";
+import './ExampleClientsideComponent';
 
 // Component that can be rendered both on client and server
-import "./ExampleHybridComponent";
+import './ExampleHybridComponent';
 
 // Component that has separate implementation for clientside
-import "./ExampleSwappedComponent.client";
+import './ExampleSwappedComponent.client';
 
 // Serverside component that contains another clientside component
-import "./ExampleAugmentedComponent";
+import './ExampleAugmentedComponent';

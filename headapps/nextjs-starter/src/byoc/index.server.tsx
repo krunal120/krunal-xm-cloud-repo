@@ -4,18 +4,18 @@
  */
 
 // Same component rendered both on server and client side
-import "./ExampleHybridComponent";
+import './ExampleHybridComponent';
 
 // Component that has separate implementation for clientside
-import "./ExampleSwappedComponent.server";
+import './ExampleSwappedComponent.server';
 
 // SEO-friendly content augmented with interactive component
-import "./ExampleAugmentedComponent";
+import './ExampleAugmentedComponent';
 
 // # App router-specific:
 
 // Async server component
-import "./ExampleServersideComponent";
+import './ExampleServersideComponent';
 
 // Server with Client inside
-import "./ExampleWrapperComponent";
+import './ExampleWrapperComponent';

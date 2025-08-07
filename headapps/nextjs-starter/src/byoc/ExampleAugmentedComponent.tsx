@@ -50,10 +50,6 @@ FEAAS.registerComponent(ExampleAugmentedComponent, {
       title: "Telephone",
       minLength: 10,
     },
-    bold: {
-      type: "boolean",
-      title: "Show text in bold weight",
-    },
   },
   ui: {
     firstName: {

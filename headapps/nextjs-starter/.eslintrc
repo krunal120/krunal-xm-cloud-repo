@@ -19,13 +19,18 @@
     "@next/next/no-img-element": "off", // Don't force next/image
     "jsx-a11y/alt-text": ["warn", { "elements": ["img"] }], // Don't force alt for <Image/> (sourced from Sitecore media)
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "caughtErrorsIgnorePattern": "."
-      }
-    ],
-    "@typescript-eslint/no-explicit-any": "error",
-    "jsx-quotes": ["error", "prefer-double"]
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "react-hooks/exhaustive-deps": "off",
+   // "import/no-extraneous-dependencies": "error",
+    //"import/extensions": ["error", "never", { svg: "always", png: "always" }],
+    "import/order": ["error", { "newlines-between": "always" }],
+    "import/no-duplicates": "error",
+    "import/no-useless-path-segments": "error",
+    "import/named": "off",
+    "import/namespace": "off",
+    "import/no-named-as-default": "off"
   }
 }
