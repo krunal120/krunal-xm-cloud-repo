@@ -65,10 +65,14 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.Sync.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\SyncRandom.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
